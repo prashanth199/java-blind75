@@ -26,7 +26,7 @@ class MissingNumberTest {
 
 		assertTrue(expected == actual);
 	}
-
+	
 	@ParameterizedTest
 	@MethodSource("providedTestCases")
 	void test_cased_two(int[] nums, int expected) {
