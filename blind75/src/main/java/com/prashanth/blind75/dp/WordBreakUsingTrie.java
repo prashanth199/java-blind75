@@ -68,7 +68,6 @@ public class WordBreakUsingTrie {
 			node = node.children.get(currentChar);
 
 			if (node.isWord && canSegmentFromIndex(s, i + 1)) {
-
 				memo.put(start, true);
 				return true;
 			}
